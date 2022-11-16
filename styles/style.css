@@ -1,0 +1,43 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.856);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    width: 100%;
+}
+.links-menu{
+    text-decoration: none;
+    font-size: medium;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+.links-menu:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(83, 81, 81);
+}
+.links-menu-tel-mail{
+    text-decoration: none;
+    font-size: medium;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+.links-menu-tel-mail:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(83, 81, 81);
+}
+#phone-number{
+    font-size: medium;
+    color: rgb(155, 133, 106);
+}
+#mail-link{
+    font-size: medium;
+    color: rgb(109, 90, 67);
+}
