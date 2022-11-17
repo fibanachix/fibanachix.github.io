@@ -22,7 +22,7 @@ header{
 }
 .links-menu-tel-mail{
     text-decoration: none;
-    font-size: medium;
+    font-size: large !important;
     padding-bottom: 2px;
     margin-bottom: 0px;
 }
@@ -30,14 +30,32 @@ header{
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
-    text-underline-offset: 6px;
+    text-underline-offset: 8px;
     text-decoration-color: rgb(83, 81, 81);
 }
 #phone-number{
-    font-size: medium;
-    color: rgb(155, 133, 106);
+    color: rgb(139, 117, 91);
 }
 #mail-link{
-    font-size: medium;
     color: rgb(109, 90, 67);
+}
+@media (min-width: 576px) {
+    html { font-size: 1.10rem; }
+    #phone-number { font-size: 0.50rem; }
+    #mail-link { font-size: 0.50rem; }
+}
+@media (min-width: 768px) {
+    html { font-size: 1.3rem; }
+    #phone-number { font-size: 0.60rem; }
+    #mail-link { font-size: 0.60rem; }
+}
+@media (min-width: 992px) {
+    html { font-size: 1.45rem; }
+    #phone-number { font-size: 0.70rem; }
+    #mail-link { font-size: 0.70rem; }
+}
+@media (min-width: 1200px) {
+    html { font-size: 1.65rem; }
+    #phone-number { font-size: 0.80rem; }
+    #mail-link { font-size: 0.80rem; }
 }
