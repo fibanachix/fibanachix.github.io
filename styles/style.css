@@ -1,3 +1,4 @@
+/* Head, home */
 html, body{
     width: 100%;
     height: 100%;
@@ -7,27 +8,12 @@ header{
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     width: 100%;
 }
-/* .back-image{
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/lawyer_1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-    position: absolute;
+#phone-number{
+    color: rgb(139, 117, 91);
 }
-.back-image::before{
-    content: '';
-    background-color: rgba(0, 0, 0, 0.4);
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-    position: absolute;
-} */
+#mail-link{
+    color: rgb(109, 90, 67);
+}
 .links-menu{
     text-decoration: none;
     font-size: medium;
@@ -57,6 +43,21 @@ header{
 .navbar-toggler:focus{
     box-shadow: none;
 }
+.back-image{
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(2, 2, 2, 0.966)) ,url("../images/lawyer_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-header-home{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+.text-content-home{
+    font-weight: 400;
+    color: rgb(216, 226, 226);
+    font-size: 24px;
+}
 .case-box-main{
     border: 2px solid gray;
     border-radius: 10px;
@@ -67,8 +68,19 @@ header{
 	right: 0;
 	margin: auto;
 }
-.description-icons{
+.text-header-icons-home{
+    font-weight: 400;
+    font-size: 30px;
+    color: aliceblue;
     margin-top: 35px;
+    margin-right: 5px;
+    margin-left: 97px;
+}
+.text-icons-home{
+    font-weight: 200;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 5px;
     margin-right: 5px;
     margin-left: 97px;
 }
@@ -78,45 +90,101 @@ header{
     margin-right: 15px;
     margin-top: 40px;
 }
-#phone-number{
-    color: rgb(139, 117, 91);
+/*--------------------------------------------------------------------*/
+
+/* About as */
+.text-header-about-as{
+    font-weight: 600;
+    color: rgb(72, 73, 73);
+    font-size: 45px;
 }
-#mail-link{
-    color: rgb(109, 90, 67);
+.text-content-about-as{
+    font-weight: 400;
+    color: rgb(72, 73, 73);
+    font-size: 20px;
 }
+.image-content{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.text-header-cases-about-as{
+    font-size: 50px;
+    color: black;
+}
+.text-cases-about-as{
+    font-size:large;
+    color: rgb(63, 84, 94);
+}
+.line-cases{
+    height: 1px;
+    border: 2px solid rgb(165, 146, 86);
+    border-radius: 3px;
+}
+
 @media (min-width: 280px) {
-    html { font-size: 1.1rem;}
-    #phone-number { font-size: 0.95rem; }
-    #mail-link { font-size: 0.95rem; }
-    .case-box-main { width: 90%; height: 12em;}
+    .text-header-icons-home { font-size: 20px; }
+    .text-icons-home { font-size: 17px; }
+    .text-header-home { font-size: 30px; }
+    .text-content-home { font-size: 18px; }
+    .text-header-about-as { font-size: 29px; }
+    .text-content-about-as { font-size: 17px; }
+    #phone-number { font-size: 1rem; }
+    #mail-link { font-size: 1rem; }
+    .case-box-main { width: 95%; height: 13.5em;}
 }
 @media (min-width: 576px) {
-    html { font-size: 1.2rem; }
-    #phone-number { font-size: 0.80rem; }
-    #mail-link { font-size: 0.80rem; }
+    .text-header-icons-home { font-size: 23px; }
+    .text-icons-home { font-size: 20px; }
+    .text-header-home { font-size: 35px; }
+    .text-content-home { font-size: 20px; }
+    .text-header-about-as { font-size: 31px; }
+    .text-content-about-as { font-size: 19px; }
+    #phone-number { font-size: 1rem; }
+    #mail-link { font-size: 1rem; }
     .case-box-main { width: 90%; height: 13em;}
 }
 @media (min-width: 768px) {
-    html { font-size: 1.40rem; }
-    #phone-number { font-size: 0.80rem; }
-    #mail-link { font-size: 0.80rem; }
-    .case-box-main { width: 300px; height: 190px;}
+    .text-header-icons-home { font-size: 25px; }
+    .text-icons-home { font-size: 22px; }
+    .text-header-home { font-size: 40px; }
+    .text-content-home { font-size: 22px; }
+    .text-header-about-as { font-size: 33px; }
+    .text-content-about-as { font-size: 19px; }
+    #phone-number { font-size: 1rem; }
+    #mail-link { font-size: 1rem; }
+    .case-box-main { width: 300px; height: 220px;}
 }
 @media (min-width: 992px) {
-    html { font-size: 1.35rem; }
-    #phone-number { font-size: 0.80rem; }
-    #mail-link { font-size: 0.80rem; }
-    .case-box-main { width: 270px; height: 200px;}
+    .text-header-icons-home { font-size: 26px; }
+    .text-icons-home { font-size: 23px; }
+    .text-header-home { font-size: 45px; }
+    .text-content-home { font-size: 23px; }
+    .text-header-about-as { font-size: 35px; }
+    .text-content-about-as { font-size: 21px; }
+    #phone-number { font-size: 1.05rem; }
+    #mail-link { font-size: 1.05rem; }
+    .case-box-main { width: 300px; height: 240px;}
 }
 @media (min-width: 1200px) {
-    html { font-size: 1.55rem;}
-    #phone-number { font-size: 0.80rem; }
-    #mail-link { font-size: 0.80rem; }
+    .text-header-icons-home { font-size: 28px; }
+    .text-icons-home { font-size: 25px; }
+    .text-header-home { font-size: 50px; }
+    .text-content-home { font-size: 25px; }
+    .text-header-about-as { font-size: 37px; }
+    .text-content-about-as { font-size: 23px; }
+    #phone-number { font-size: 1.1rem; }
+    #mail-link { font-size: 1.1rem; }
     .case-box-main { width: 340px; height: 270px;}
 }
 @media (min-width: 1400px) {
-    html { font-size: 1.60rem; }
-    #phone-number { font-size: 0.90rem; }
-    #mail-link { font-size: 0.90rem; }
+    .text-header-icons-home { font-size: 30px; }
+    .text-icons-home { font-size: 27px; }
+    .text-header-home { font-size: 55px; }
+    .text-content-home { font-size: 28px; }
+    .text-header-about-as { font-size: 39px; }
+    .text-content-about-as { font-size: 25px; }
+    #phone-number { font-size: 1.2rem; }
+    #mail-link { font-size: 1.2rem; }
     .case-box-main { width: 350px; height: 280px;}
 }
