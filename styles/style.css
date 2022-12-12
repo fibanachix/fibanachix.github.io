@@ -123,9 +123,6 @@ header{
 
 /*----------------------------------------------------------------*/
 /* Services */
-li,ul{
-
-}
 .overlay{
     position: absolute;
     height: 100%;
@@ -211,6 +208,35 @@ li,ul{
 @media screen and (max-width: 768px){
     .slide-content{margin: 0 10px !important;}
     .swiper-navBtn{display: none !important;}
+}
+.text-why-us{
+    color: gray; 
+    font-size: 20px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:normal;
+}
+#link-to-submit{
+    width: 50px;
+    height: auto;
+    color: rgb(190, 187, 187);
+    background-color: rgb(29, 28, 28);
+    padding: 12px 12px 12px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#link-to-submit:hover{
+    background-color: rgb(17, 16, 16);
+    color: aliceblue;
+}
+.why-us-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.titles-why-us{
+    color: rgb(27, 26, 26);
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media (min-width: 280px) {
