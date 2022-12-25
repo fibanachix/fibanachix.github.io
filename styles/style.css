@@ -8,13 +8,24 @@ header{
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     width: 100%;
 }
+.navbar-toggler{
+    background-color: rgb(209, 207, 207);
+}
+.back-color{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(../images/lawyer_back.jpg);
+
+}
 #phone-number{
-    color: rgb(139, 117, 91);
+    color: rgb(243, 204, 156);
 }
 #mail-link{
-    color: rgb(109, 90, 67);
+    color: rgb(243, 204, 156);
 }
 .links-menu{
+    color: aliceblue !important;
     text-decoration: none;
     font-size: medium;
     padding-bottom: 2px;
@@ -25,7 +36,7 @@ header{
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
     text-underline-offset: 6px;
-    text-decoration-color: rgb(83, 81, 81);
+    text-decoration-color: rgb(255, 245, 245);
 }
 .links-menu-tel-mail{
     text-decoration: none;
@@ -38,7 +49,7 @@ header{
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
     text-underline-offset: 8px;
-    text-decoration-color: rgb(83, 81, 81);
+    text-decoration-color: rgb(255, 254, 254);
 }
 .navbar-toggler:focus{
     box-shadow: none;
@@ -184,6 +195,7 @@ header{
 }
 .card{
     border-radius: 25px;
+    background: transparent;
 }
 .services-name{
     font-size: 22px;
@@ -262,6 +274,21 @@ header{
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height:normal;
+}
+.links-buttom{
+    color: rgba(35, 89, 238, 0.904);
+    text-decoration: none;
+    font-size: medium;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+.links-buttom:hover{
+    color: rgb(153, 155, 156);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(133, 131, 131);
 }
 
 @media (min-width: 280px) {
