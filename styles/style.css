@@ -16,7 +16,9 @@ header{
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
       ), url(../images/lawyer_back.jpg);
-
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #phone-number{
     color: rgb(243, 204, 156);
@@ -55,7 +57,7 @@ header{
     box-shadow: none;
 }
 .back-image{
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(2, 2, 2, 0.966)) ,url("../images/lawyer_1.jpg");
+    background: linear-gradient(rgba(2, 2, 2, 1), rgba(2, 2, 2, 1)) ,url("../images/lawyer_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -70,6 +72,7 @@ header{
     font-size: 24px;
 }
 .case-box-main{
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(1, 1, 1, 0.9));
     border: 2px solid gray;
     border-radius: 10px;
     position: relative;
@@ -294,6 +297,18 @@ header{
 @media (min-width: 280px) {
     .text-header-icons-home { font-size: 20px; }
     .text-icons-home { font-size: 17px; }
+    .text-header-home { font-size: 30px; }
+    .text-content-home { font-size: 18px; }
+    .text-header-about-as { font-size: 29px; }
+    .text-content-about-as { font-size: 17px; }
+    #phone-number { font-size: 1rem; }
+    #mail-link { font-size: 1rem; }
+    .case-box-main { width: 95%; height: 13.5em;}
+    .card-image{height: 350px; width: 95%;}
+}
+@media (min-width: 320px) {
+    .text-header-icons-home { font-size: 22px; }
+    .text-icons-home { font-size: 20px; }
     .text-header-home { font-size: 30px; }
     .text-content-home { font-size: 18px; }
     .text-header-about-as { font-size: 29px; }
