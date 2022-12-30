@@ -8,13 +8,18 @@ header{
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     width: 100%;
 }
+/* .icons-messengers{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */
 
-.no_scroll{
+/* .no_scroll{
     overflow: hidden;
 }
 .collapsing {
     transition: none !important;
-}
+} */
 /*navbar icon*/
 .navbar-toggler{
     width: 20px;
@@ -82,22 +87,22 @@ header{
 
 .back-color{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
-      ), url(../images/lawyer_back.jpg);
+        rgba(0, 0, 0, 0.82), 
+        rgba(0, 0, 0, 0.82)
+      ), url(../images/photo-10.jpg);
     
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 #phone-number{
-    color: rgb(243, 204, 156);
+    color: rgb(218, 213, 213);
 }
 #mail-link{
-    color: rgb(243, 204, 156);
+    color: rgb(218, 213, 213);
 }
 .links-menu{
-    color: aliceblue !important;
+    color: rgb(255, 255, 255) !important;
     text-decoration: none;
     font-size: medium;
     padding-bottom: 2px;
@@ -108,7 +113,7 @@ header{
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
     text-underline-offset: 6px;
-    text-decoration-color: rgb(255, 245, 245);
+    text-decoration-color: rgb(253, 235, 235);
 }
 .links-menu-tel-mail{
     text-decoration: none;
@@ -121,7 +126,7 @@ header{
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
     text-underline-offset: 8px;
-    text-decoration-color: rgb(255, 254, 254);
+    text-decoration-color: rgb(211, 211, 211);
 }
 .navbar-toggler:focus{
     box-shadow: none;
@@ -133,17 +138,19 @@ header{
 }
 .text-header-home{
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: rgb(236, 232, 232);
     font-size: 60px;
 }
 .text-content-home{
     font-weight: 400;
-    color: rgb(216, 226, 226);
+    color: rgb(224, 221, 221);
     font-size: 24px;
 }
 .case-box-main{
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(1, 1, 1, 0.9));
-    border: 1px solid rgb(59, 59, 59);
+    /* background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(1, 1, 1, 0.9)); */
+    background:rgba(25, 25, 25, 0.78);
+    /* border: 1px solid rgb(59, 59, 59); */
+    border: 1px solid transparent;
     border-radius: 10px;
     position: relative;
 	top: 0;
@@ -155,7 +162,7 @@ header{
 .text-header-icons-home{
     font-weight: 400;
     font-size: 30px;
-    color: aliceblue;
+    color: rgb(197, 196, 196);
     margin-top: 35px;
     margin-right: 5px;
     margin-left: 97px;
@@ -195,7 +202,8 @@ header{
 }
 .image-content{
     width: 100%;
-    height: auto;
+    height: 450px;
+    object-fit: cover;
     max-width: 100%;
 }
 .text-header-cases-about-as{
@@ -369,20 +377,20 @@ header{
 }
 
 @media (min-width: 280px) {
-    .text-header-icons-home { font-size: 20px; }
-    .text-icons-home { font-size: 17px; }
+    .text-header-icons-home { font-size: 19px; }
+    .text-icons-home { font-size: 13px; }
     .text-header-home { font-size: 30px; }
     .text-content-home { font-size: 18px; }
     .text-header-about-as { font-size: 29px; }
     .text-content-about-as { font-size: 17px; }
     #phone-number { font-size: 1rem; }
     #mail-link { font-size: 1rem; }
-    .case-box-main { width: 95%; height: 13.5em;}
+    .case-box-main { width: 95%; /*height: 13.5em;*/ height: fit-content;}
     .card-image{height: 350px; width: 95%;}
 }
 @media (min-width: 320px) {
-    .text-header-icons-home { font-size: 22px; }
-    .text-icons-home { font-size: 20px; }
+    .text-header-icons-home { font-size: 21px; }
+    .text-icons-home { font-size: 17px; }
     .text-header-home { font-size: 30px; }
     .text-content-home { font-size: 18px; }
     .text-header-about-as { font-size: 29px; }
@@ -405,19 +413,19 @@ header{
 }
 @media (min-width: 768px) {
     .text-header-icons-home { font-size: 25px; }
-    .text-icons-home { font-size: 22px; }
+    .text-icons-home { font-size: 20px; }
     .text-header-home { font-size: 40px; }
     .text-content-home { font-size: 22px; }
     .text-header-about-as { font-size: 33px; }
     .text-content-about-as { font-size: 19px; }
     #phone-number { font-size: 1rem; }
     #mail-link { font-size: 1rem; }
-    .case-box-main { width: 300px; height: 220px;}
+    .case-box-main { width: 330px; height: 220px;}
     .card-image{height: 350px; width: 100%;}
 }
 @media (max-width: 992px){
     .collapse{
-        height: 50vh;
+        /* height: 50vh; */
         border-bottom: 2px solid rgb(161, 161, 161);
     }
     .text-menu{
@@ -426,7 +434,7 @@ header{
 }
 @media (min-width: 992px) {
     .text-header-icons-home { font-size: 26px; }
-    .text-icons-home { font-size: 23px; }
+    .text-icons-home { font-size: 20px; }
     .text-header-home { font-size: 45px; }
     .text-content-home { font-size: 23px; }
     .text-header-about-as { font-size: 35px; }
@@ -437,24 +445,24 @@ header{
 }
 @media (min-width: 1200px) {
     .text-header-icons-home { font-size: 28px; }
-    .text-icons-home { font-size: 25px; }
+    .text-icons-home { font-size: 24px; }
     .text-header-home { font-size: 50px; }
     .text-content-home { font-size: 25px; }
     .text-header-about-as { font-size: 37px; }
     .text-content-about-as { font-size: 23px; }
     #phone-number { font-size: 1.1rem; }
     #mail-link { font-size: 1.1rem; }
-    .case-box-main { width: 340px; height: 270px;}
+    .case-box-main { width: 345px; height: 280px;}
 }
 @media (min-width: 1400px) {
     .text-header-icons-home { font-size: 30px; }
-    .text-icons-home { font-size: 27px; }
+    .text-icons-home { font-size: 24px; }
     .text-header-home { font-size: 55px; }
     .text-content-home { font-size: 28px; }
     .text-header-about-as { font-size: 39px; }
     .text-content-about-as { font-size: 25px; }
     #phone-number { font-size: 1.2rem; }
     #mail-link { font-size: 1.2rem; }
-    .case-box-main { width: 350px; height: 280px;}
+    .case-box-main { width: 400px; height: 280px;}
     .card-image{height: 350px; width: 105%;}
 }
