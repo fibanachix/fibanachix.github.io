@@ -10,8 +10,6 @@ header{
     width: 100%;
 }
 
-
-
 /* .icons-messengers{
     position: absolute;
     right: 0;
@@ -117,7 +115,7 @@ header{
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
     text-underline-offset: 6px;
-    text-decoration-color: rgb(253, 235, 235);
+    text-decoration-color: rgb(238, 238, 238);
 }
 .links-menu-tel-mail{
     text-decoration: none;
@@ -380,6 +378,11 @@ header{
     text-underline-offset: 6px;
     text-decoration-color: rgb(133, 131, 131);
 }
+#write_us{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media (min-width: 280px) {
     .text-header-icons-home { font-size: 19px; }
@@ -435,7 +438,6 @@ header{
 }
 @media (max-width: 992px){
     .collapse{
-        /* height: 50vh; */
         border-bottom: 2px solid rgb(161, 161, 161);
     }
     .text-menu{

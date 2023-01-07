@@ -412,8 +412,9 @@
                 <div class="row pt-4">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <h3 class="text-light">Контакти</h3>
-                        <div class="line-cases mb-3" style="width: 60px;"></div>
-                        <p class="text-light pe-4" style="display: inline-block;">Телефон: </p><a class="links-buttom" href="tel:+380123456789"><p style="display: inline-block;"> +380123456789</p></a>
+                        <div class="line-cases" style="width: 60px;"></div>
+                        <hr style="background-color: rgb(255, 255, 255); padding: 0;margin: 0; height: 2px;">
+                        <p class="text-light pe-4 pt-3" style="display: inline-block;">Телефон: </p><a class="links-buttom" href="tel:+380123456789"><p style="display: inline-block;"> +380123456789</p></a>
                         <br/>
                         <p class="text-light pe-4" style="display: inline-block;">Телефон: </p><a class="links-buttom" href="tel:+380123456789"><p style="display: inline-block;">+380123456789</p></a>
                         <br/>
@@ -422,24 +423,61 @@
                         <p class="text-light pe-4" style="display: inline-block;">Адреса:&nbsp;&nbsp;&nbsp;&nbsp; Україна, м. Київ, Львівська площа, 21/2</p>
                         <br/>
 
-                        <div class="mapouter pt-3"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0,%201-5,%20%D0%9A%D0%B8%D1%97%D0%B2,%2002000&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 100%; height: 350px;"></iframe><a href="https://technologg.com/" style="display:none">technologg</a><style>.mapouter{position:relative;text-align:right;height:350px;width:87%;}</style><style>.gmap_canvas{overflow:hidden;background:none!important;height:350px;width:87%;}</style></div></div>
+                        <div class="mapouter pt-3">
+                            <div class="gmap_canvas">
+                                <iframe src="https://maps.google.com/maps?q=%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0,%201-5,%20%D0%9A%D0%B8%D1%97%D0%B2,%2002000&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 100%; height: 350px;">
+                                </iframe>
+                                <a href="https://technologg.com/" style="display:none">technologg</a>
+                                <style>
+                                    .mapouter{
+                                        position:relative;
+                                        text-align:right;
+                                        height:350px;
+                                        width:87%;
+                                    }
+                                </style>
+                                <style>
+                                    .gmap_canvas{
+                                        overflow:hidden;
+                                        background:none!important;
+                                        height:350px;
+                                        width:87%;
+                                    }
+                                    @media screen and (max-width: 767px)
+                                    {
+                                        .mapouter{
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                        }
+                                        .gmap_canvas{
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                        }
+                                    }
+                                </style>
+                                </div>
+                            </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 ps-lg-5">
-                        <div id="write_us"><h3 class="text-light">Написати нам</h3></div>
-                        <div class="line-cases mb-3" style="width: 60px;"></div>
-                        <div class="w-75 pt-3">
-                            <form class="w-100" action="index.php" method="post">
-                                <div class="mb-4">
-                                  <input style="height: 50px;" id="numberPhoneInput" type="tel" class="form-control" name="numberPhone" aria-describedby="numberPhone" placeholder="+380123456789">
-                                </div>
-                                <div class="mb-5">
-                                  <input style="height: 50px;" type="email" class="form-control" name="email" placeholder="email@mail.com">
-                                </div>
-                                <div class="mb-4">
-                                    <textarea class="form-control" name="message" rows="10" placeholder="Ваше питання..."></textarea>    
-                                </div>
-                                <button type="submit" name="sendButton" class="btn btn-primary" style="width:fit-content; padding: 10px;">Відправити</button>
-                            </form>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div id="write_us" class="pb-4"><h3 class="text-light text-sm-center text-md-start text-lg-start text-xl-start">Написати нам</h3>
+                            <div class="line-cases" style="width: 60px;"></div>
+                            <hr style="background-color: rgb(255, 255, 255); padding: 0;margin: 0; height: 2px;">
+                        </div>
+                        <div class="ms-auto me-auto">
+                            <div class="w-100 pt-3 ps-5 pe-5">
+                                <form class="w-100" action="index.php" method="post">
+                                    <div class="mb-4">
+                                      <input style="height: 50px;" id="numberPhoneInput" type="tel" class="form-control" name="numberPhone" aria-describedby="numberPhone" placeholder="+380123456789">
+                                    </div>
+                                    <div class="mb-5">
+                                      <input style="height: 50px;" type="email" class="form-control" name="email" placeholder="email@mail.com">
+                                    </div>
+                                    <div class="mb-4">
+                                        <textarea class="form-control" name="message" rows="10" placeholder="Ваше питання..."></textarea>    
+                                    </div>
+                                    <button type="submit" name="sendButton" class="btn btn-primary" style="width:fit-content; padding: 10px;">Відправити</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -447,7 +485,7 @@
                 <div class="row pt-5">
                     <div class="col-sm-12 col-md-4 col-lg-4 pe-5 pt-4">
                         <h5 class="text-light">BURO<br/> ORDYNAT AND<br/>PARTNERS</h5>
-                        <p class="pt-3 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, tenetur sed. Accusantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, quibusdam facilis quia, sapiente modi labore voluptate aspernatur.</p>
+                        <p class="pt-3 text-light">провідна юридична фірма з командою досвідчених адвокатів, готових допомогти вам з усіма вашими юридичними потребами.</p>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4 pt-4">
                         <h4 class="text-start text-light pb-3">Навігація</h4>
