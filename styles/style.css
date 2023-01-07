@@ -2,12 +2,16 @@
 html, body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 header{
     background-color: rgba(255, 255, 255, 0.856);
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     width: 100%;
 }
+
+
+
 /* .icons-messengers{
     position: absolute;
     right: 0;
@@ -202,9 +206,9 @@ header{
 }
 .image-content{
     width: 100%;
-    height: 450px;
+    height: 520px;
     object-fit: cover;
-    max-width: 100%;
+    max-width: 570px;
 }
 .text-header-cases-about-as{
     font-size: 50px;
@@ -259,7 +263,7 @@ header{
     padding: 25px 0;
 }
 .card-image .card-img{
-    height: 100%;
+    height: 450px;
     width: 100%;
     object-fit: cover;
     border-radius: 10%;
@@ -321,6 +325,7 @@ header{
     .slide-content{margin: 0 10px !important;}
     /* .swiper-navBtn{display: none !important;} */
 }
+
 .text-why-us{
     color: gray; 
     font-size: 20px; 
@@ -381,7 +386,7 @@ header{
     .text-icons-home { font-size: 13px; }
     .text-header-home { font-size: 30px; }
     .text-content-home { font-size: 18px; }
-    .text-header-about-as { font-size: 29px; }
+    .text-header-about-as { font-size: 25px; }
     .text-content-about-as { font-size: 17px; }
     #phone-number { font-size: 1rem; }
     #mail-link { font-size: 1rem; }
@@ -393,7 +398,7 @@ header{
     .text-icons-home { font-size: 17px; }
     .text-header-home { font-size: 30px; }
     .text-content-home { font-size: 18px; }
-    .text-header-about-as { font-size: 29px; }
+    .text-header-about-as { font-size: 27px; }
     .text-content-about-as { font-size: 17px; }
     #phone-number { font-size: 1rem; }
     #mail-link { font-size: 1rem; }
@@ -401,27 +406,32 @@ header{
     .card-image{height: 350px; width: 95%;}
 }
 @media (min-width: 576px) {
-    .text-header-icons-home { font-size: 23px; }
+    .text-header-icons-home { font-size: 22px; }
     .text-icons-home { font-size: 20px; }
     .text-header-home { font-size: 35px; }
     .text-content-home { font-size: 20px; }
-    .text-header-about-as { font-size: 31px; }
+    .text-header-about-as { font-size: 29px; }
     .text-content-about-as { font-size: 19px; }
     #phone-number { font-size: 1rem; }
     #mail-link { font-size: 1rem; }
     .case-box-main { width: 90%; height: 13em;}
 }
 @media (min-width: 768px) {
-    .text-header-icons-home { font-size: 25px; }
+    .text-header-icons-home { font-size: 23px; }
     .text-icons-home { font-size: 20px; }
-    .text-header-home { font-size: 40px; }
-    .text-content-home { font-size: 22px; }
-    .text-header-about-as { font-size: 33px; }
+    .text-header-home { font-size: 38px; }
+    .text-content-home { font-size: 20px; }
+    .text-header-about-as { font-size: 31px; }
     .text-content-about-as { font-size: 19px; }
     #phone-number { font-size: 1rem; }
     #mail-link { font-size: 1rem; }
     .case-box-main { width: 330px; height: 220px;}
     .card-image{height: 350px; width: 100%;}
+}
+@media (max-width: 768px){
+    #write_us{
+        margin-top: 50px;
+    }
 }
 @media (max-width: 992px){
     .collapse{
@@ -433,34 +443,34 @@ header{
     }
 }
 @media (min-width: 992px) {
-    .text-header-icons-home { font-size: 26px; }
+    .text-header-icons-home { font-size: 24px; }
     .text-icons-home { font-size: 20px; }
-    .text-header-home { font-size: 45px; }
-    .text-content-home { font-size: 23px; }
-    .text-header-about-as { font-size: 35px; }
-    .text-content-about-as { font-size: 21px; }
+    .text-header-home { font-size: 40px; }
+    .text-content-home { font-size: 21px; }
+    .text-header-about-as { font-size: 32px; }
+    .text-content-about-as { font-size: 20px; }
     #phone-number { font-size: 1.05rem; }
     #mail-link { font-size: 1.05rem; }
     .case-box-main { width: 300px; height: 240px;}
 }
 @media (min-width: 1200px) {
-    .text-header-icons-home { font-size: 28px; }
+    .text-header-icons-home { font-size: 25px; }
     .text-icons-home { font-size: 24px; }
-    .text-header-home { font-size: 50px; }
-    .text-content-home { font-size: 25px; }
-    .text-header-about-as { font-size: 37px; }
-    .text-content-about-as { font-size: 23px; }
+    .text-header-home { font-size: 42px; }
+    .text-content-home { font-size: 21px; }
+    .text-header-about-as { font-size: 32px; }
+    .text-content-about-as { font-size: 20px; }
     #phone-number { font-size: 1.1rem; }
     #mail-link { font-size: 1.1rem; }
     .case-box-main { width: 345px; height: 280px;}
 }
 @media (min-width: 1400px) {
-    .text-header-icons-home { font-size: 30px; }
+    .text-header-icons-home { font-size: 27px; }
     .text-icons-home { font-size: 24px; }
-    .text-header-home { font-size: 55px; }
-    .text-content-home { font-size: 28px; }
-    .text-header-about-as { font-size: 39px; }
-    .text-content-about-as { font-size: 25px; }
+    .text-header-home { font-size: 45px; }
+    .text-content-home { font-size: 23px; }
+    .text-header-about-as { font-size: 34px; }
+    .text-content-about-as { font-size: 21px; }
     #phone-number { font-size: 1.2rem; }
     #mail-link { font-size: 1.2rem; }
     .case-box-main { width: 400px; height: 280px;}
