@@ -476,3 +476,10 @@ header{
     .case-box-main { width: 400px; height: 280px;}
     .card-image{height: 350px; width: 105%;}
 }
+
+/* @media (max-width: 450px)
+{
+    .navbar-brand{
+        display: none;
+    }
+} */
