@@ -6,7 +6,7 @@ var swiper = new Swiper(".slide-content", {
     //loop: true,
     centerSlide: 'true',
     fade: 'true',
-    grabCursor: 'true',
+    //grabCursor: 'true',
     cssMode: 'true',
     //loopFillGroupWithBlank: true,
     pagination: {
