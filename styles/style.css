@@ -430,6 +430,7 @@ header{
     #mail-link { font-size: 1rem; }
     .case-box-main { width: 330px; height: 220px;}
     .card-image{height: 350px; width: 100%;}
+    .services-content { padding-bottom: 50px !important;}
 }
 @media (max-width: 768px){
     #write_us{
@@ -442,6 +443,10 @@ header{
     }
     .text-menu{
         text-align: center;
+    }
+    .buttons-services{
+        height: 55px !important;
+        font-size: 14px;
     }
 }
 @media (min-width: 992px) {
