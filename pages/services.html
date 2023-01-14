@@ -14,12 +14,18 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="" style="background-color: rgb(255, 255, 255);">
+    <section class="" style="background-color: rgb(54, 53, 53);">
         <header style="background: transparent !important;">
-            <nav class="navbar navbar-expand-lg py-3">
+            <nav class="navbar navbar-expand-xl py-3">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html#home"><img src="../images/logo_2.png" width="215px" height="auto" alt="logo"></a>
-                  <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <a class="navbar-brand" href="../index.html#home">
+                    <picture>
+                        <source srcset="../images/logo_small.png" media="(max-width: 431px)" width="auto" height="92px" alt="logo"/>
+                        <source srcset="../images/logo.png" media="(min-width: 431px)" width="auto" height="92px" alt="logo"/>
+                        <img src="../images/logo.png" width="auto" height="92px" alt="logo"/>
+                    </picture>
+                  </a>
+                  <button class="navbar-toggler collapsed d-flex d-xl-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon top-bar"></span>
                     <span class="toggler-icon middle-bar"></span>
                     <span class="toggler-icon bottom-bar"></span>
@@ -50,7 +56,7 @@
                                 <a class="nav-link active links-menu-tel-mail" href="mailto:email@example.com"><p class="m-0 p-0 text-menu" id="mail-link">&#8226;&nbsp;mail@gmail.com</p></a>
                             </li> -->
                             <li class="nav-item pb-2 pe-3">
-                                <a class="nav-link active links-menu-tel-mail" href="tel:+380999999999"><p class="m-0 p-0 text-menu phone-mail">&#8226;&nbsp;+38 099 999 9999</p></a>
+                                <a class="nav-link active links-menu-tel-mail" href="tel:+380678787030"><p class="m-0 p-0 text-menu phone-mail">&#8226;&nbsp;38(067)878-70-30</p></a>
                             </li>
                             <li class="nav-item pb-2 pt-2 ms-auto me-auto">
                                 <a href="https://t.me/Fibanachix"><img height="28px" width="28px" src="../images/icon-telegram.svg" alt="telegram"></a>
@@ -59,9 +65,14 @@
                                 <a href="https://api.whatsapp.com/send?phone=380961881078"><img height="28px" width="28px" src="../images/icon-whatsapp.svg" alt="whatsapp"></a>
                             </li>
                             <li class="nav-item pb-2 pt-2 ms-auto ps-5">
-                                <img height="28px" width="28px" src="../images/icon-ukraine.svg" alt="Ukraine">
+                                <!-- <img height="28px" width="28px" src="../images/icon-ukraine.svg" alt="Ukraine">
                                 <img height="28px" width="28px" src="../images/icon-russia.svg" alt="russia">
-                                <img height="28px" width="28px" src="../images/icon-england.svg" alt="England">
+                                <img height="28px" width="28px" src="../images/icon-england.svg" alt="England"> -->
+                                <select class="select-lang">
+                                    <option class="option-select" value="1">UA</option>
+                                    <option class="option-select" value="2">UK</option>
+                                    <option class="option-select" value="3">RU</option>
+                                </select>
                             </li>
                         </ul>
                   </div>

@@ -3,6 +3,14 @@ header{
     width: 100%;
     border-bottom: 2px solid rgb(156, 155, 155);
 }
+.select-lang
+{
+    color: rgb(187, 186, 186);
+    background-color: rgb(54, 53, 53);
+    border: 0;
+    outline: 0;
+    padding: 5px;
+}
 
 .navbar-toggler{
     width: 20px;
@@ -29,7 +37,7 @@ header{
     position: absolute;
     height: 2.5px;
     width: 100%;
-    background: rgb(61, 61, 61);
+    background: rgb(255, 254, 254);
     border: 1px;
     opacity: 1;
     left: 0;
@@ -68,10 +76,17 @@ header{
 }
 
 .phone-mail{
-    color: rgb(39, 39, 39);
+    color: rgb(231, 229, 229);
+}
+.phone-mail:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(236, 236, 236);
 }
 .links-menu{
-    color: rgb(37, 37, 37) !important;
+    color: rgb(236, 236, 236) !important;
     text-decoration: none;
     font-size: 15px;
     padding-bottom: 2px;
@@ -82,7 +97,7 @@ header{
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
     text-underline-offset: 6px;
-    text-decoration-color: rgb(46, 46, 46);
+    text-decoration-color: rgb(236, 236, 236);
 }
 .links-menu-tel-mail{
     text-decoration: none;
@@ -230,7 +245,7 @@ header{
         font-size: 15px;
     }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1199px) {
     .text-menu{ text-align: center; }
 }
 @media (min-width: 280px) {

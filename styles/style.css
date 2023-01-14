@@ -9,20 +9,6 @@ header{
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
     width: 100%;
 }
-
-/* .icons-messengers{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-} */
-
-/* .no_scroll{
-    overflow: hidden;
-}
-.collapsing {
-    transition: none !important;
-} */
-/*navbar icon*/
 .navbar-toggler{
     width: 20px;
     height: 20px;
@@ -133,11 +119,20 @@ header{
 .navbar-toggler:focus{
     box-shadow: none;
 }
-.back-image{
-    background: linear-gradient(rgba(2, 2, 2, 1), rgba(2, 2, 2, 1)) ,url("../images/lawyer_1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.select-lang
+{
+    color: rgb(194, 191, 191);
+    background-color: rgb(17, 16, 16);
+    border: 0;
+    outline: 0;
+    padding: 5px;
 }
+.option-select{
+    color: rgb(194, 191, 191);
+    border: 0 !important;
+    outline: 0 !important;
+}
+
 .text-header-home{
     font-weight: 600;
     color: rgb(236, 232, 232);
@@ -172,7 +167,7 @@ header{
 .text-icons-home{
     font-weight: 200;
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(180, 180, 180);
     margin-top: 5px;
     margin-right: 5px;
     margin-left: 97px;
@@ -292,7 +287,7 @@ header{
     text-align: center;
 }
 .swiper-navBtn{
-    color: rgb(255, 255, 255) !important;
+    color: rgb(49, 49, 49) !important;
     transition: color 0.3s ease !important;
 }
 .swiper-navBtn:hover{
@@ -300,11 +295,10 @@ header{
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
-    background-color: rgb(61, 61, 61);
     border-radius: 50%;
     background-size: cover;
-    padding: 8px;
-    font-size: 20px !important;
+    margin-bottom: 200px;
+    font-size: 30px !important;
 }
 .swiper-button-next{
     right: 0 !important;
@@ -437,7 +431,7 @@ header{
         margin-top: 50px;
     }
 }
-@media (max-width: 992px){
+@media (max-width: 1199px){
     .collapse{
         border-bottom: 2px solid rgb(161, 161, 161);
     }
