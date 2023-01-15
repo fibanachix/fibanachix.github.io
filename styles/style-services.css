@@ -136,6 +136,15 @@ header{
     font-weight: 500;
     color: rgb(51, 51, 51);
 }
+.services-name:hover{
+    color: rgb(80, 80, 80);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(114, 113, 113);
+}
+
 .text-start-services{
     color: gray; 
     font-size: 20px; 
