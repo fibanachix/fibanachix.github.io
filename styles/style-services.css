@@ -244,6 +244,39 @@ header{
 .swiper-pagination-bullet-active{
     background-color: rgb(46, 48, 48) !important;
 }
+
+/*Contacts*/
+.title-contacts{
+    color: rgba(126, 113, 71, 0.904);
+    font-weight: 500;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:normal;
+}
+.links-buttom{
+    color: rgba(179, 177, 177, 0.904);
+    text-decoration: none;
+    font-size: medium;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+.links-buttom:hover{
+    color: rgb(95, 95, 95);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(133, 131, 131);
+}
+.line-cases{
+    height: 4px;
+    border-radius: 5px;
+    background-color: rgb(165, 146, 86);
+    /* border: 2px solid rgb(165, 146, 86);
+    border-radius: 3px; */
+}
+
+
 @media screen and (max-width: 768px){
     .slide-content{margin: 0 10px !important;}
 }
