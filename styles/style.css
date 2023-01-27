@@ -20,7 +20,7 @@ header{
     height:fit-content;
 }
 .navbar-collapse{
-    transition: none;
+    transition: none !important;
 }
 .navbar-toggler, 
 .navbar-toggler:focus,
