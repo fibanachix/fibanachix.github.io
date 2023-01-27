@@ -16,6 +16,9 @@ header{
     transition: .5s ease-in-out;
     border: none;
 }
+.collapsing{
+    height:fit-content;
+}
 .navbar-toggler, 
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -338,9 +341,8 @@ header{
     color: aliceblue;
 }
 .why-us-icon{
-    width: 70px;
-    height: 70px;
-    border-radius: 10px;
+    width: 60px;
+    height: 60px;
 }
 .titles-why-us{
     color: rgb(27, 26, 26);
