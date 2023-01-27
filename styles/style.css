@@ -78,8 +78,8 @@ header{
 
 .back-color{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.82), 
-        rgba(0, 0, 0, 0.82)
+        rgba(0, 0, 0, 0.86), 
+        rgba(0, 0, 0, 0.89)
       ), url(../images/photo-10.jpg);
     
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ header{
 }
 .case-box-main{
     /* background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(1, 1, 1, 0.9)); */
-    background:rgba(25, 25, 25, 0.78);
+    background:rgba(17, 17, 17, 0.78);
     /* border: 1px solid rgb(59, 59, 59); */
     border: 1px solid transparent;
     border-radius: 10px;
