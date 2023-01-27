@@ -125,26 +125,26 @@ header{
 .select-lang
 {
     color: rgb(194, 191, 191);
-    background-color: rgb(17, 16, 16);
+    background-color: transparent;
     border: 0;
     outline: 0;
     padding: 5px;
 }
 .option-select{
-    color: rgb(194, 191, 191);
+    color: rgb(0, 0, 0);
     border: 0 !important;
     outline: 0 !important;
 }
 
 .text-header-home{
     font-weight: 600;
-    color: rgb(236, 232, 232);
+    color: rgb(241, 240, 245);
     font-size: 60px;
 }
 .text-content-home{
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
     color: rgb(224, 221, 221);
-    font-size: 24px;
 }
 .case-box-main{
     /* background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(1, 1, 1, 0.9)); */
@@ -196,7 +196,7 @@ header{
     font-size: 45px;
 }
 .text-content-about-as{
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
     color: rgb(72, 73, 73);
     font-size: 20px;
 }
@@ -324,7 +324,7 @@ header{
 .text-why-us{
     color: gray; 
     font-size: 20px; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height:normal;
 }
 #link-to-submit{
@@ -383,7 +383,7 @@ header{
 @media (min-width: 280px) {
     .text-header-icons-home { font-size: 19px; }
     .text-icons-home { font-size: 13px; }
-    .text-header-home { font-size: 30px; }
+    .text-header-home { font-size: 26px; }
     .text-content-home { font-size: 18px; }
     .text-header-about-as { font-size: 25px; }
     .text-content-about-as { font-size: 17px; }
@@ -395,7 +395,7 @@ header{
 @media (min-width: 320px) {
     .text-header-icons-home { font-size: 21px; }
     .text-icons-home { font-size: 17px; }
-    .text-header-home { font-size: 30px; }
+    .text-header-home { font-size: 28px; }
     .text-content-home { font-size: 18px; }
     .text-header-about-as { font-size: 27px; }
     .text-content-about-as { font-size: 17px; }
