@@ -19,6 +19,9 @@ header{
 .collapsing{
     height:fit-content;
 }
+.navbar-collapse{
+    transition: none;
+}
 .navbar-toggler, 
 .navbar-toggler:focus,
 .navbar-toggler:active,
