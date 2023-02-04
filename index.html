@@ -36,7 +36,7 @@
                     <picture>
                         <source srcset="./images/logo_small.png" media="(max-width: 431px)" width="auto" height="92px" alt="logo"/>
                         <source srcset="./images/logo.png" media="(min-width: 431px)" width="auto" height="92px" alt="logo"/>
-                        <img src="./images/logo.png" width="auto" height="92px" alt="logo" loading="lazy"/>
+                        <img src="./images/logo.png" width="auto" height="92px" alt="logo"/>
                     </picture>
                   </a>
                   <button class="navbar-toggler collapsed d-flex d-xl-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,21 +98,21 @@
                     <h1 id="home-1" class="pb-3 text-center text-header-home">Юридична компанія "Ordynat Tsymbaluk Skuba"</h1>
                     <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
                         <div class="case-box-main">
-                            <img class="icons" src="./images/icon-quality.png" alt="quality" width="60px" height="60px" loading="lazy">
+                            <img class="icons" src="./images/icon-quality.png" alt="quality" width="60px" height="60px">
                             <h4 id="home-2" class="text-header-icons-home">Практикуючі,</h4>
                             <p id="home-3" class="text-icons-home">висококваліфіковані адвокати забезпечать високоякісну юридичну допомогу</p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
                         <div class="case-box-main">
-                            <img class="icons" src="./images/icon-support.png" alt="quality" width="60px" height="60px" loading="lazy">
+                            <img class="icons" src="./images/icon-support.png" alt="quality" width="60px" height="60px">
                             <h4 id="home-4" class="text-header-icons-home">Підтримуюча</h4>
                             <p id="home-5" class="text-icons-home">та розуміюча команда, присвячена допомозі клієнтам</p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3">
                         <div class="case-box-main">
-                            <img class="icons" src="./images/icon-price.png" alt="quality" width="60px" height="60px" loading="lazy">
+                            <img class="icons" src="./images/icon-price.png" alt="quality" width="60px" height="60px">
                             <h4 id="home-6" class="text-header-icons-home">Доступність,</h4>
                             <p id="home-7" class="text-icons-home">чесність та відкритість до надання різного спектору юридичних послуг</p>
                         </div>
@@ -140,7 +140,7 @@
                     </p>
                     <div class="col-sm-12 col-md-6 col-lg-6 pb-4">
                         <picture>
-                            <img class="image-content" src="./images/photo-2.jpg" alt="Photo" loading="lazy"/>
+                            <img class="image-content" src="./images/photo-2.jpg" alt="Photo"/>
                         </picture>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6">
@@ -158,7 +158,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row mt-5 ps-lg-5">
+                <div class="row mt-3 ps-lg-5 numbers">
                     <div class="col-sm-12 col-md-3 col-lg-3 mb-4">
                         <h2 class="text-header-cases-about-as">20+</h2>
                         <div style="width: 70px;" class="line-cases mb-2"></div>
@@ -180,6 +180,13 @@
                         <p id="about-us-7" class="text-cases-about-as">Понад 450 виграних справ</p>
                     </div>
                 </div>
+                <style>
+                    @media (max-width: 767px) {
+                      .numbers{
+                        padding-left: 20px;
+                      }
+                    }
+                </style>
             </div>
         </section>
         <section style="background-color: #ffffff;">
@@ -199,17 +206,13 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="./images/photo-9.jpg" alt="lawyer-photo" class="card-img" loading="lazy">
+                                            <img src="./images/photo-9.jpg" alt="lawyer-photo" class="card-img">
                                         </div>
                                     </div>
                                     <div class="card-content">
                                         <h2 id="team-4" class="services-name">Михайло Цимбалюк</h2>
                                         <p id="team-5" class="text-center" style="color: rgb(83, 82, 82); font-weight: 400;">
                                             Адвокат
-                                            <!-- Спеціалізація: банківське право, цивільне та сімейне право, іпотечні та банківські спори, 
-                                            господарські спори, виконавче провадження, нотаріат (правочини, спадщина, та ін.), 
-                                            супровід господарської діяльності фізичних осіб-підприємців та юридичних осіб. 
-                                            Судовий адвокат. Загальний юридичний стаж 20 років. -->
                                         </p>
                                         <p id="team-6" class="lawyers" style="color: rgb(26, 24, 24); font-weight: 400;">
                                             Спеціалізація: банківське право, цивільне та сімейне право, іпотечні та 
@@ -217,16 +220,6 @@
                                             спадщина, та ін.), супровід господарської діяльності фізичних осіб-підприємців та 
                                             юридичних осіб. 
                                             Судовий адвокат. Загальний стаж судового юриста/адвоката складає 20 років.
-
-                                            <!-- Михайло Цимбалюк - наш головний юрист в адвокатській конторі. Він досвідчений і 
-                                            висококваліфікований юрист з глибоким розумінням закону і твердою прихильністю захисту 
-                                            інтересів своїх клієнтів. 
-                                            Маючи понад 9-річний досвід роботи в цій галузі, Михайло має широкий спектр знань у багатьох 
-                                            галузях права, включаючи Корпоративне право, Договірне право та судові розгляди. 
-                                            Він відомий своїм професіоналізмом, увагою до деталей та здатністю пропонувати практичні 
-                                            та ефективні рішення складних юридичних питань. У своїй ролі головного юриста Михайло 
-                                            відповідає за нагляд за всіма юридичними питаннями у фірмі і забезпечення того, щоб наші 
-                                            клієнти отримували юридичне представництво найвищої якості. -->
                                         </p>
                                     </div>
                                 </div>
@@ -234,7 +227,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="./images/photo-14.jpg" alt="lawyer-photo" class="card-img" loading="lazy">
+                                            <img src="./images/photo-14.jpg" alt="lawyer-photo" class="card-img">
                                         </div>
                                     </div>
                                     <div class="card-content">
@@ -242,19 +235,7 @@
                                         <p id="team-8" class="text-center" style="color: rgb(83, 82, 82); font-weight: 400;">
                                             Адвокат
                                         </p>
-                                        <!-- <p class="text-center" style="color: rgb(83, 82, 82); font-weight: 400;">
-                                            Адвокат.
-                                            Спеціалізація: адвокат з військових справ, цивільне та сімейне право, виконавче провадження.
-                                            Судовий адвокат. Загальний юридичний стаж 15 років.
-                                        </p> -->
                                         <p id="team-9" class="lawyers" style="color: rgb(26, 24, 24); font-weight: 400;">
-                                            <!-- Зоя Ординат - адвокат в нашій адвокатській конторі. Вона є висококваліфікованим і досвідченим 
-                                            адвокатом з доведеним послужним списком успіху в представленні інтересів своїх клієнтів. 
-                                            Зоя володіє глибоким розумінням закону і вміє знаходити творчі рішення складних юридичних питань. 
-                                            Вона відома своєю пильною увагою до деталей і здатністю ефективно спілкуватися зі своїми клієнтами, 
-                                            гарантуючи, що вони повністю проінформовані і залучені в юридичний процес. У своїй ролі адвоката 
-                                            Зоя відповідає за вирішення різних юридичних питань, включаючи переговори, контракти та судові 
-                                            розгляди. -->
                                             Спеціалізація: адвокат з військових справ, цивільне та сімейне право, виконавче провадження. 
                                             Судовий адвокат. Загальний юридичний стаж 15 років.
                                         </p>
@@ -264,26 +245,15 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="./images/photo-15.jpg" alt="lawyer-photo" class="card-img" loading="lazy">
+                                            <img src="./images/photo-15.jpg" alt="lawyer-photo" class="card-img">
                                         </div>
                                     </div>
                                     <div class="card-content">
                                         <h2 id="team-10" class="services-name">Микола Скуба</h2>
                                         <p id="team-11" class="text-center" style="color: rgb(83, 82, 82); font-weight: 400;">
-                                            <!-- Адвокат. Спеціалізація: кримінальний та адміністративний процес, справи 
-                                            про адміністративні правопорушення, ІТ-адвокат, виконавче провадження. 
-                                            Судовий адвокат. Загальний юридичний стаж 5 років. -->
                                             Адвокат
                                         </p>
                                         <p id="team-12" class="lawyers" style="color: rgb(26, 24, 24); font-weight: 400;">
-                                            <!-- Микола Скуба - є висококваліфікованим і 
-                                            досвідченим адвокатем. Маючи більш ніж десятирічний досвід роботи в юридичній 
-                                            сфері, він володіє глибоким розумінням закону і відомий своєю здатністю знаходити 
-                                            творчі рішення складних питань. Микола - ініціативний і цілеспрямований 
-                                            професіонал, який завжди шукає способи поліпшити свої навички і краще 
-                                            обслуговувати своїх клієнтів. Микола також відомий своєю унікальною точкою зору 
-                                            та підходом до юридичних питань, що дозволяє йому пропонувати свіжі та інноваційні 
-                                            ідеї. -->
                                             Спеціалізація: кримінальний та адміністративний процес, справи про 
                                             адміністративні правопорушення, ІТ-адвокат, виконавче провадження. 
                                             Судовий адвокат. Загальний юридичний стаж 5 років.
@@ -295,7 +265,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="./images/photo-4.jpg" alt="lawyer-photo" class="card-img" loading="lazy">
+                                            <img src="./images/photo-4.jpg" alt="lawyer-photo" class="card-img">
                                         </div>
                                     </div>
                                     <div class="card-content">
@@ -305,13 +275,6 @@
                                         </p>
                                         <p id="team-15" class="lawyers" style="color: rgb(26, 24, 24); font-weight: 400;">
                                             Спеціалізація: цивільне та сімейне право.
-                                            <!-- Артeм Старченко - адвокат-стажер нашої адвокатської контори, навчається на останньому курсі 
-                                            університету ім. Т. Шевченка. Він має міцну основу в юридичній теорії та принципах і прагне 
-                                            захищати інтереси своїх клієнтів. Артем амбітний і працьовитий, постійно шукає можливості 
-                                            вчитися і рости в своїй кар'єрі. Як адвокат-стажер, він тісно співпрацює з досвідченими адвокатами, 
-                                            щоб отримати практичний досвід у цій галузі.
-                                            Мета Артема - стати кваліфікованим і знаючим адвокатом, здатним ефективно 
-                                            представляти своїх клієнтів і надавати їм адвокатські послуги найвищої якості. -->
                                         </p>
                                     </div>
                                 </div>
@@ -319,7 +282,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="./images/photo-8.jpg" alt="lawyer-photo" class="card-img" loading="lazy">
+                                            <img src="./images/photo-8.jpg" alt="lawyer-photo" class="card-img">
                                         </div>
                                     </div>
                                     <div class="card-content">
@@ -328,13 +291,6 @@
                                             Юрист/помічник адвоката
                                         </p>
                                         <p id="team-18" class="lawyers" style="color: rgb(26, 24, 24); font-weight: 400;">
-                                            <!-- Максим Бабяк - амбітний і цілеспрямований адвокат-стажер. 
-                                            Максим вже продемонстрував свої здібності до юридичної професії та свою відданість 
-                                            забезпеченню високоякісного представництва своїх клієнтів. Він відомий своєю 
-                                            здатністю швидко захоплювати складні юридичні концепції та застосовувати їх до 
-                                            реальних ситуацій. Його амбіції та відданість спонукають його завжди прагнути до 
-                                            досконалості у всьому, що він робить, що робить його цінним надбанням для нашої 
-                                            фірми та наших клієнтів. -->
                                             Спеціалізація: цивільне та сімейне право.
                                         </p>
                                     </div>
@@ -365,16 +321,16 @@
                         </p>
                         <a class="" id="link-to-submit" href="#numberPhoneInput">Написати нам</a>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 pt-5 pb-3 ps-5">
+                    <div class="col-sm-12 col-md-4 col-lg-4 pt-5 pb-3 ps-2">
                         <div class="case-why-us pb-5">
-                            <img class="why-us-icon" src="./images/icon-standarts.png" alt="standarts" loading="lazy">
+                            <img class="why-us-icon" src="./images/icon-standarts.png" alt="standarts">
                             <h4 id="why-us-5" class="titles-why-us pt-4">Найвищий сервіс та стандарти</h4>
                             <div class="line-cases w-25"></div>
                             <p id="why-us-6" class="text-why-us-opt pt-3" style="line-height: 22px; font-size: 18px;">Конфіденційність.</p>
                             <p id="why-us-7" class="text-why-us-opt" style="line-height: 0px; font-size: 18px;">Підтримка 24 / 7</p>
                         </div>
                         <div class="case-why-us">
-                            <img class="why-us-icon" src="./images/icon-expert.png" alt="Expert" loading="lazy">
+                            <img class="why-us-icon" src="./images/icon-expert.png" alt="Expert">
                             <h4 id="why-us-8" class="titles-why-us pt-4">Експертне представництво</h4>
                             <div class="line-cases w-25"></div>
                             <p id="why-us-9" class="text-why-us-opt pt-3" style="line-height: 23px; font-size: 18px;">
@@ -382,9 +338,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 pt-5 pb-3 ps-5">
+                    <div class="col-sm-12 col-md-4 col-lg-4 pt-5 pb-3 ps-2">
                         <div class="case-why-us pb-5">
-                            <img class="why-us-icon" src="./images/icon-results.png" alt="Results" loading="lazy">
+                            <img class="why-us-icon" src="./images/icon-results.png" alt="Results">
                             <h4 id="why-us-10" class="titles-why-us pt-4">Індивідуальне обслуговування</h4>
                             <div class="line-cases w-25"></div>
                             <p id="why-us-11" class="text-why-us-opt pt-3" style="line-height: 23px; font-size: 18px;">
@@ -392,8 +348,8 @@
                             </p>
                         </div>
                         <div class="case-why-us">
-                            <img class="why-us-icon" src="./images/icon-personalized.png" alt="Personalized" loading="lazy">
-                            <h4 id="why-us-12" class="titles-why-us pt-4">Відданість справі та зобов'язання</h4>
+                            <img class="why-us-icon" src="./images/icon-personalized.png" alt="Personalized">
+                            <h4 id="why-us-12" class="titles-why-us pt-3">Відданість справі та зобов'язання</h4>
                             <div class="line-cases w-25"></div>
                             <p id="why-us-13" class="text-why-us-opt pt-3" style="line-height: 23px; font-size: 18px;">
                                 Прагнемо надавати послуги найвищого рівня
