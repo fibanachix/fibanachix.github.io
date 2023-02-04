@@ -66,7 +66,7 @@ const texts = {
     contact2: "Телефон:",
     contact3: "Почта:",
     contact4: "Месенджери:",
-    contact5: "Адреса:&nbsp;&nbsp;&nbsp;&nbsp; м. Київ, вул. Жилянська 126/23 оф. 203-204",
+    contact5: "Адреса:&nbsp;&nbsp;&nbsp;&nbsp; м. Київ, вул. Жилянська 126/23 оф. 204",
     contact6: "Написати нам",
     contact7: "Ваше питання...", //placeholder
     contact8: "Надіслати",
