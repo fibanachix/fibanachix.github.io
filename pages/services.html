@@ -9,6 +9,11 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="../styles/swiper-bundle.min.css">
     <!---->
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,27 +46,27 @@
                   <div class="collapse navbar-collapse pb-3" id="navbarNavAltMarkup">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active links-menu" href="../index.html#home"><p class="m-0 p-0 text-menu">Головна</p></a>
+                                <a class="nav-link active links-menu" href="../index.html#home"><p id="menu-1" class="m-0 p-0 text-menu">Головна</p></a>
                             </li>
                         </ul>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active links-menu" href="../index.html#about_as"><p class="m-0 p-0 text-menu">Про Нас</p></a>
+                                <a class="nav-link active links-menu" href="../index.html#about_as"><p id="menu-2" class="m-0 p-0 text-menu">Про нас</p></a>
                             </li>
                         </ul>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active links-menu" href="#services"><p class="m-0 p-0 text-menu">Послуги</p></a>
+                                <a class="nav-link active links-menu" href="#services"><p id="menu-3" class="m-0 p-0 text-menu">Послуги</p></a>
                             </li>
                         </ul>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active links-menu" href="../pages/publications.html"><p class="m-0 p-0 text-menu">Публікації</p></a>
+                                <a class="nav-link active links-menu" href="../pages/publications.html"><p id="menu-4" class="m-0 p-0 text-menu">Публікації</p></a>
                             </li>
                         </ul>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active links-menu" href="../index.html#contacts"><p class="m-0 p-0 text-menu">Контакти</p></a>
+                                <a class="nav-link active links-menu" href="../index.html#contacts"><p id="menu-5" class="m-0 p-0 text-menu">Контакти</p></a>
                             </li>
                         </ul>
                         <ul class="navbar-nav ms-auto">
@@ -69,7 +74,7 @@
                                 <a class="nav-link active links-menu-tel-mail" href="mailto:email@example.com"><p class="m-0 p-0 text-menu" id="mail-link">&#8226;&nbsp;mail@gmail.com</p></a>
                             </li> -->
                             <li class="nav-item pb-2 pe-3">
-                                <a class="nav-link active links-menu-tel-mail" href="tel:+380678787030"><p class="m-0 p-0 text-menu phone-mail">&#8226;&nbsp;38 (067) 878-70-30</p></a>
+                                <a class="nav-link active links-menu-tel-mail" href="tel:+380678787030"><p class="m-0 p-0 text-menu phone-mail">&#9990;&nbsp;+380 (67) 878-70-30</p></a>
                             </li>
                             <li class="nav-item pb-2 pt-2 ms-auto me-auto">
                                 <a href="https://t.me/Fibanachix"><img height="28px" width="28px" src="../images/icon-telegram.svg" alt="telegram"></a>
@@ -81,7 +86,7 @@
                                 <!-- <img height="28px" width="28px" src="../images/icon-ukraine.svg" alt="Ukraine">
                                 <img height="28px" width="28px" src="../images/icon-russia.svg" alt="russia">
                                 <img height="28px" width="28px" src="../images/icon-england.svg" alt="England"> -->
-                                <select class="select-lang">
+                                <select class="select-lang" onchange="sel()">
                                     <option class="option-select" value="1">UA</option>
                                     <option class="option-select" value="2">UK</option>
                                     <option class="option-select" value="3">RU</option>
@@ -94,15 +99,15 @@
         </header>
     </section>
     <main class="w-100">
-        <section id="services" style="background-color: rgb(255, 255, 255);">
+        <section id="services" style="background-color: rgb(240, 238, 238);">
             <div class="container-fluid pt-5 pb-5 ps-xl-5 pe-xl-5 ps-lg-5 pe-lg-5 ps-md-5 pe-md-5 ps-sm-4 pe-sm-4">
                 <div class="row">
-                    <h2 class="text-center pb-4">Послуги</h2>
-                    <p class="content-services">
+                    <h2 id="content-1" class="text-center pb-4">Послуги</h2>
+                    <p id="content-2" class="content-services">
                         Юридична компанія «OTS» - це команда професіоналів, яка створена в умовах симбіозу досвіду адвокатів зі стажем та 
                         наполегливості молодих фахівців у різноманітних галузях права. Адвокати та юристи ЮК «OTS» гарантують якість своїх 
                         послуг, оскільки на меті ми маємо насамперед результат, що влаштовує клієнта. <br/>
-                        <picture><img class="image" style="float: left; margin: 20px 20px 20px 0;" src="../images/photo-7.jpg" alt=""></picture>
+                        <picture><img class="image" style="float: left; margin: 20px 20px 20px 0;" src="../images/photo-7.jpg" alt="team-photo"></picture>
                         Правники ЮК «OTS» загартовані багаторічним досвідом судових процесів на різних стадіях та юрисдикціях, що дозволяє клієнту бути 
                         впевненим у виборі під час  проходження складного шляху судових спорів.
                         Адвокати ЮК «OTS» в процесі вивчення документів, консультації чи формування правової позиції віддають перевагу глибокому 
@@ -121,14 +126,14 @@
                     <!--modals-->
                     <div>
                         <!--mod-1-->
-                        <div class="modal fade" id="mod_1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_1" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_1">Сімейний адвокат</h5>
+                                        <h5 id="service-1" class="modal-title" id="mod_lb_1">Сімейний адвокат</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-2" class="modal-body">
                                         Категорії справ сімейного адвоката завжди супроводжуються емоціональним впливом зі сторони 
                                         подружжяя, що заважає парі адекватно вирішити свою проблему. Звернення до адвоката допоможе 
                                         уникнути надлишкової емоційності та вирішити спір у рамках чинного законодавства України.
@@ -170,21 +175,20 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <!--mod-2-->
-                        <div class="modal fade" id="mod_2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_2" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_2">Спори у сфері банківського права</h5>
+                                        <h5 id="service-4" class="modal-title" id="mod_lb_2">Спори у сфері банківського права</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-5" class="modal-body">
                                         Банківська позика, споживчі кредити, іпотека, застава, порука – усе це вкрай популярні 
                                         і часто необхідні у сучасному житті громадянина, а також, бізнесу речі. На цьому підґрунті 
                                         виникають спори між банківською установою та позичальником, особливо, у разі наявної 
@@ -224,7 +228,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -232,15 +235,15 @@
 
 
                         <!--mod-3-->
-                        <div class="modal fade" id="mod_3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_3" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_3">Адвокат по кримінальних справах</h5>
+                                        <h5 id="service-7" class="modal-title" id="mod_lb_3">Адвокат по кримінальних справах</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
-                                        Галузь кримінально права потребує завжди найбільшої уваги і знань адвоката, адже це 
+                                    <div id="service-8" class="modal-body">
+                                        Галузь кримінального права потребує завжди найбільшої уваги і знань адвоката, адже це 
                                         чи не єдина галузь, яка посягає на обмеження або позбавлення волі людини у зв’язку з 
                                         притягненням особи, що скоїла кримінальне правопорушення, до відповідальності. Злочини, 
                                         які відносяться до кримінального права найчастіше посягають на життя та здоров’я громадянина, 
@@ -287,7 +290,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -295,14 +297,14 @@
 
 
                         <!--mod-4-->
-                        <div class="modal fade" id="mod_4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_4" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_4">Земельне право</h5>
+                                        <h5 id="service-10" class="modal-title" id="mod_lb_4">Земельне право</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-11" class="modal-body">
                                         Земля – найбільше багатство держави та громадянина. А тому, так часто виникає багато 
                                         проблемних питань у цій сфері щодо: купівлі-продажу, оренди, приватизації, оформлення 
                                         права власності у порядку спадкування, отримання безкоштовної земельної ділянки від 
@@ -344,7 +346,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -352,14 +353,14 @@
 
 
                         <!--mod-5-->
-                        <div class="modal fade" id="mod_5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_5" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_5">Житлові спори</h5>
+                                        <h5 id="service-13" class="modal-title" id="mod_lb_5">Житлові спори</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-14" class="modal-body">
                                         З тими чи іншими житловими суперечками стикався чи не кожен українець: оренда, 
                                         поділ квартири, вселення/виселення з житла, пошкодження ремонту сусідами внаслідок 
                                         затоплення та ін.  – все це відноситься до галузі житлового законодавства. Житлові 
@@ -395,7 +396,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -403,14 +403,14 @@
 
 
                         <!--mod-6-->
-                        <div class="modal fade" id="mod_6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_6" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_6">Адвокат з питань пенсійного законодавства</h5>
+                                        <h5 id="service-16" class="modal-title" id="mod_lb_6">Адвокат з питань пенсійного законодавства</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-17" class="modal-body">
                                         Пенсіонери в Україні вважаються однією з найбільш незахищених категорій громадян, 
                                         які потребують правової допомоги у зв’язку з виходом на пенсію. Пенсійне законодавство 
                                         має свої особливості, які літня людина не в змозі сама відслідковувати, тому за 
@@ -447,7 +447,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -455,14 +454,14 @@
 
 
                         <!--mod-7-->
-                        <div class="modal fade" id="mod_7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_7" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_7">Адвокат по адміністративних справах</h5>
+                                        <h5 id="service-19" class="modal-title" id="mod_lb_7">Адвокат по адміністративних справах</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-20" class="modal-body">
                                         Щодня кожен громадянин у своєму житті так чи інакше зіштовхується зі сферою 
                                         адміністративного права, з роботою органів державної влади, органів місцевого 
                                         самоврядування. Дуже часто виникає потреба в оскаржені їх діяльності або бездіяльності, 
@@ -490,7 +489,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -498,14 +496,14 @@
 
 
                         <!--mod-8-->
-                        <div class="modal fade" id="mod_8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_8" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_8">Адвокат у сфері медичного права</h5>
+                                        <h5 id="service-22" class="modal-title" id="mod_lb_8">Адвокат у сфері медичного права</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-23" class="modal-body">
                                         Якість отриманих медичних послуг дуже часто виникає сумніви у пацієнтів. Але оскільки це часто 
                                         чисто суб’єктивна думка – юридичної допомоги можуть потребувати як пацієнт, так і лікар або 
                                         медичний заклад. Також, у сучасному світі, де жінка прагне виглядати краще, кожна третя 
@@ -546,7 +544,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -554,14 +551,14 @@
 
 
                         <!--mod-9-->
-                        <div class="modal fade" id="mod_9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_9" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_9">Спори у сфері спадкового права</h5>
+                                        <h5 id="service-25" class="modal-title" id="mod_lb_9">Спори у сфері спадкового права</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-26" class="modal-body">
                                         Зі спадковим правом у свій час стикається чи не кожен українець, насамперед при відкритті 
                                         спадщині, тобто коли є спадкодавець і спадкоємець, який її приймає. Але не завжди процес 
                                         прийняття спадщини простий: подав заяву, почекав пів року і майно твоє.
@@ -600,7 +597,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -608,14 +604,14 @@
 
 
                         <!--mod-10-->
-                        <div class="modal fade" id="mod_10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_10" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_10">Адвокат по ДТП, страховим випадкам</h5>
+                                        <h5 id="service-28" class="modal-title" id="mod_lb_10">Адвокат по ДТП, страховим випадкам</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-29" class="modal-body">
                                         На сьогоднішній день мати власний автомобіль вже не розкіш і тому чи не кожен другий 
                                         українець вважає себе досвідченним водієм. Але наскільки б Ви не були впевнені в собі 
                                         – Ви наперед не можете знати, як поведе себе на дорозі водій сусіднього авто і що може 
@@ -663,7 +659,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -671,14 +666,14 @@
 
 
                         <!--mod-11-->
-                        <div class="modal fade" id="mod_11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_11" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_11">Абонентське юридичне обслуговування</h5>
+                                        <h5 id="service-31" class="modal-title" id="mod_lb_11">Абонентське юридичне обслуговування</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-32" class="modal-body">
                                         Абонентське юридичне обслуговування (юридичний супровід бізнесу) – це комплекс заходів 
                                         для вашого бізнесу, спрямований на захист інтересів та мінімізування витрат компанії, 
                                         залишаючи всі правові питання на юриста.
@@ -718,7 +713,6 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
@@ -726,14 +720,14 @@
 
 
                         <!--mod-12-->
-                        <div class="modal fade" id="mod_12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal fade" id="mod_12" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_12">Адвокат з питань захисту прав військовозобов’язаних/військовослужбовців</h5>
+                                        <h5 id="service-34" class="modal-title" id="mod_lb_12">Адвокат з питань захисту прав військовозобов’язаних/військовослужбовців</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div id="service-35" class="modal-body">
                                         Починаючи з 2014 року військове право стало однією з найбільш розповсюджених галузей права, 
                                         а військовий адвокат – одним із з тих, хто має великий попит на ринку. Але після початку 
                                         повномасштабної війни 24 лютому 2022 року кількість звернень до адвоката з військових питань 
@@ -775,39 +769,17 @@
                                         <b>Отримати юридичну консультацію та допомогу адвоката можливо за номером: +380 (67) 878-70-30</b>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-
-                        <!--mod-13-->
-                        <!-- <div class="modal fade" id="mod_13" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="mod_lb_13">Виконавче провадження</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        - супровід ВП на стороні стягувача; <br/>
-                                        - суппровід ВП на стороні боржника; <br/>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрити</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        
+                        </div>                   
                     </div>
                 </div>
                 <div id="services" class="row pt-5">
                     <div class="slide-container swiper">
                         <div class="slide-content">
                             <div class="card-wrapper swiper-wrapper">
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_1">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -815,12 +787,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_1">
-                                            <h2 class="services-name">Сімейний адвокат</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-37" class="services-name">Сімейний адвокат</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_2">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -828,12 +800,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_2">
-                                            <h2 class="services-name">Спори у сфері банківського права </h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-38" class="services-name">Спори у сфері банківського права </h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_3">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -841,12 +813,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_3">
-                                            <h2 class="services-name">Адвокат по кримінальних справах</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-39" class="services-name">Адвокат по кримінальних справах</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_4">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -854,12 +826,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_4">
-                                            <h2 class="services-name">Земельне право</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-40" class="services-name">Земельне право</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_5">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -867,12 +839,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_5">
-                                            <h2 class="services-name">Житлові спори</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-41" class="services-name">Житлові спори</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_6">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -880,12 +852,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_6">
-                                            <h2 class="services-name">Адвокат з питань пенсійного законодавства</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-42" class="services-name">Адвокат з питань пенсійного законодавства</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_7">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -893,12 +865,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_7">
-                                            <h2 class="services-name">Адвокат по адміністративних справах</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-43" class="services-name">Адвокат по адміністративних справах</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_8">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -906,12 +878,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_8">
-                                            <h2 class="services-name">Адвокат у сфері медичного права</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-44" class="services-name">Адвокат у сфері медичного права</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_9">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -919,12 +891,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_9">
-                                            <h2 class="services-name">Спори у сфері спадкового права</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-45" class="services-name">Спори у сфері спадкового права</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_10">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -932,12 +904,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_10">
-                                            <h2 class="services-name">Адвокат по ДТП, страховим випадкам</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-46" class="services-name">Адвокат по ДТП, страховим випадкам</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_11">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -945,12 +917,12 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_11">
-                                            <h2 class="services-name">Абонентське юридичне обслуговування</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-47" class="services-name">Абонентське юридичне обслуговування</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <div class="card border-0 swiper-slide">
+                                <div class="card border-0 swiper-slide" data-bs-toggle="modal" data-bs-target="#mod_12">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
@@ -958,24 +930,11 @@
                                         </div>
                                     </div>
                                     <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_12">
-                                            <h2 class="services-name">Адвокат з питань захисту прав військовозобов’язаних/військовослужбовців</h2>
+                                        <button type="button" class="border-0 bg-transparent">
+                                            <h2 id="service-48" class="services-name">Адвокат з питань захисту прав військовозобов’язаних/військовослужбовців</h2>
                                         </button>
                                     </div>
                                 </div>
-                                <!-- <div class="card border-0 swiper-slide">
-                                    <div class="image-content">
-                                        <span class="overlay"></span>
-                                        <div class="card-image">
-                                            <img src="https://th.bing.com/th/id/R.c0edb2a6cd6e053cfed414b48318bb66?rik=pUNLXHs7eVaIfw&pid=ImgRaw&r=0" alt="Vykonavche" class="card-img">
-                                        </div>
-                                    </div>
-                                    <div class="card-content">
-                                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#mod_13">
-                                            <h2 class="services-name">Виконавче провадження</h2>
-                                        </button>
-                                    </div>
-                                </div> -->
                             </div>
                             <div class="pb-4"></div>
                         </div>
@@ -991,27 +950,27 @@
                 <div class="row pt-1">
                     <div class="col-sm-12 col-md-4 col-lg-4 pe-5 pt-4">
                         <h5 class="text-light">LAW FIRM "OTS"</h5>
-                        <p class="pt-3 text-light">провідна юридична фірма з командою досвідчених адвокатів, готових допомогти вам з усіма вашими юридичними потребами.</p>
+                        <p id="contact-1" class="pt-3 text-light">провідна юридична фірма з командою досвідчених адвокатів, готових допомогти вам з усіма вашими юридичними потребами.</p>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4 pt-4">
-                        <h4 class="text-start text-light pb-3">Навігація</h4>
+                        <h4 id="contact-2" class="text-start text-light pb-3">Навігація</h4>
                         <div class="line-cases footer-info" style="width: 60px;"></div>
                         <div class="pt-3 w-50">
-                            <a class="links-buttom text-start" href="../index.html#home"><p class="">Головна</p></a>
-                            <a class="links-buttom text-start" href="../index.html#about_as"><p class="">Про нас</p></a>
-                            <a class="links-buttom text-start" href="#services"><p class="">Послуги</p></a>
-                            <a class="links-buttom text-start" href="../pages/publications.html"><p class="">Публікації</p></a>
-                            <a class="links-buttom text-start" href="../index.html#contacts"><p class="">Контакти</p></a>
+                            <a class="links-buttom text-start" href="../index.html#home"><p id="contact-3" class="">Головна</p></a>
+                            <a class="links-buttom text-start" href="../index.html#about_as"><p id="contact-4" class="">Про нас</p></a>
+                            <a class="links-buttom text-start" href="#services"><p id="contact-5" class="">Послуги</p></a>
+                            <a class="links-buttom text-start" href="../pages/publications.html"><p id="contact-6" class="">Публікації</p></a>
+                            <a class="links-buttom text-start" href="../index.html#contacts"><p id="contact-7" class="">Контакти</p></a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4 pt-4">
-                        <h4 class="text-start text-light pb-3">Корисні ресурси</h4>
+                        <h4 id="contact-8" class="text-start text-light pb-3">Корисні ресурси</h4>
                         <div class="line-cases" style="width: 60px;"></div>
                         <div class="pt-3 w-75">
-                            <a class="links-buttom text-start" href="https://zakon.rada.gov.ua/laws/show/435-15#Text"><p class="">Цивільне право</p></a>
-                            <a class="links-buttom text-start" href="https://ccu.gov.ua/storinka-knygy/210-kryminalne-pravo-ta-administratyvni-pravoporushennya"><p class="">Кримінальне право</p></a>
-                            <a class="links-buttom text-start" href="https://www.rada.gov.ua/news/zpn"><p class="">Нові законопроєкти</p></a>
-                            <a class="links-buttom text-start" href="https://www.rada.gov.ua/"><p class="">Інформація для бізнесу</p></a>
+                            <a class="links-buttom text-start" href="https://zakon.rada.gov.ua/laws/show/435-15#Text"><p id="contact-9" class="">Цивільне право</p></a>
+                            <a class="links-buttom text-start" href="https://ccu.gov.ua/storinka-knygy/210-kryminalne-pravo-ta-administratyvni-pravoporushennya"><p id="contact-10" class="">Кримінальне право</p></a>
+                            <a class="links-buttom text-start" href="https://www.rada.gov.ua/news/zpn"><p id="contact-11" class="">Нові законопроєкти</p></a>
+                            <a class="links-buttom text-start" href="https://www.rada.gov.ua/"><p id="contact-12" class="">Інформація для бізнесу</p></a>
                         </div>
                     </div>
                 </div>
@@ -1029,6 +988,7 @@
 <script src="../js/swiper-bundle.min.js"></script>
 <!---->
 <script src="../js/services.js"></script>
+<script src="../js/translate-services.js"></script>
 <!-- <script src="../js/script.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>

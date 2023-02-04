@@ -98,20 +98,30 @@ header{
     transform: rotate(0deg);
 }
 
-.phone-mail{
-    color: rgb(231, 229, 229);
+#phone-number{
+    color: rgb(238, 237, 237);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
-.phone-mail:hover{
+#phone-number:hover{
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
-    text-underline-offset: 6px;
-    text-decoration-color: rgb(236, 236, 236);
+    text-underline-offset: 8px;
+    text-decoration-color: rgb(211, 211, 211);
 }
 .links-menu{
-    color: rgb(236, 236, 236) !important;
     text-decoration: none;
-    font-size: 15px;
+}
+.text-menu{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     padding-bottom: 2px;
     margin-bottom: 0px;
 }
@@ -120,25 +130,17 @@ header{
     text-decoration-thickness: 2px;
     text-decoration-style: solid;
     text-underline-offset: 6px;
-    text-decoration-color: rgb(236, 236, 236);
-}
-.links-menu-tel-mail{
-    text-decoration: none;
-    font-size: 15px !important;
-    padding-bottom: 2px;
-    margin-bottom: 0px;
-}
-.links-menu-tel-mail:hover{
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-style: solid;
-    text-underline-offset: 8px;
-    text-decoration-color: rgb(54, 54, 54);
+    text-decoration-color: rgb(238, 238, 238);
 }
 .content-services{
     font-size: 18px;
-    font-weight: 400;
-    color: rgb(58, 57, 57);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+    text-align: justify;
+}
+.modal-body{
+    text-align: justify;
 }
 
 .image{
