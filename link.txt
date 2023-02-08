@@ -1,3 +1,0 @@
-https://fibanachix.github.io/
-
-https://live.browserstack.com/dashboard#os=iOS&os_version=14.0&device_browser=safari&zoom_to_fit=true&full_screen=true&speed=1
